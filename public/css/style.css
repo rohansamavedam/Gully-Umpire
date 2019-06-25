@@ -1,12 +1,14 @@
 body{
-	font-size: 35px;
+	font-size: 25px;
+	background: rgb(230, 254, 255);
 }
 
 .container{
-	padding: 8px;
-	border-radius: 20px;
-	border: 2px solid black;
+	padding: 5px;
+	/* border-radius: 20px; */
+	border: 1px solid green;
 	margin-top: 10px;
+	background: rgb(210, 235, 253);
 }
 
 .center{
@@ -15,7 +17,7 @@ body{
 	margin-right: auto;
 	margin-top: 7px;
 	border-radius: 20px;
-	background:lightblue;
+	background: rgb(175, 232, 208);
 	padding-left: 22px;
 	padding-right: 22px;
 }
@@ -26,8 +28,58 @@ body{
 	margin-right: auto;
 	margin-top: 7px;
 	border-radius: 20px;
-	background:lightblue;
+	background: rgb(175, 232, 208);
 	padding-left: 22px;
 	padding-right: 22px;
 	font-size: 20px;
+}
+
+#balltoball{
+	display: inline-block;
+	width:100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+
+#red{
+	font-size: 16px;
+	background: red;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#grey{
+	font-size: 16px;
+	background: grey;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#green{
+	font-size: 16px;
+	background: lightgreen;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#pink{
+	font-size: 16px;
+	background: pink;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#black{
+	font-size: 16px;
+	background: black;
+	color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
 }
