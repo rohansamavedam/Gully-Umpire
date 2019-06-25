@@ -1,0 +1,33 @@
+body{
+	font-size: 35px;
+}
+
+.container{
+	padding: 8px;
+	border-radius: 20px;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7px;
+	border-radius: 20px;
+	background:lightblue;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+.centerp{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7px;
+	border-radius: 20px;
+	background:lightblue;
+	padding-left: 22px;
+	padding-right: 22px;
+	font-size: 20px;
+}
