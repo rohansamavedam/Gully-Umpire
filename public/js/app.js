@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$('#teamtwo-score').text(0);
 	$('#teamtwo-wickets').text(0);
 	var team = 'teamone'
+	var balls = 0;
 	$('#teamchange').click(function(){
 		team = 'teamtwo'
 		alert('Team Two')
@@ -14,6 +15,8 @@ $(document).ready(function(){
 		btn.innerHTML = "TC";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls = 0;
+		$('#ballspld').text(balls);
 	})
 	$('#wicket').click(function(){
 		var temp = $('#'+team+'-wickets').text()
@@ -26,6 +29,8 @@ $(document).ready(function(){
 		btn.innerHTML = "W";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#zero').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -38,6 +43,8 @@ $(document).ready(function(){
 		btn.innerHTML = "0";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#one').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -50,6 +57,8 @@ $(document).ready(function(){
 		btn.innerHTML = "1";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#two').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -62,6 +71,8 @@ $(document).ready(function(){
 		btn.innerHTML = "2";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#three').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -74,6 +85,8 @@ $(document).ready(function(){
 		btn.innerHTML = "3";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#four').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -86,6 +99,8 @@ $(document).ready(function(){
 		btn.innerHTML = "4";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#six').click(function(){
 		var temp = $('#'+team+'-score').text()
@@ -98,6 +113,8 @@ $(document).ready(function(){
 		btn.innerHTML = "6";
 		btn.setAttributeNode(att)
 		document.getElementById("balltoball").appendChild(btn);
+		balls++;
+		$('#ballspld').text(balls);
 	})
 	$('#wide').click(function(){
 		var temp = $('#'+team+'-score').text()
